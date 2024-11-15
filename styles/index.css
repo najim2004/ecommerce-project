@@ -229,7 +229,7 @@ nav{
 /* hero related styles */
 .hero-bg{
     height: 513px;
-    background: url("/assets/herobg.png");
+    background: url("../assets/herobg.png");
     overflow-y: hidden;
     margin-top: 14px;
 }
