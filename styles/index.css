@@ -164,3 +164,145 @@ nav{
     top: -3px;
     left: 10px;
 }
+
+/* nav menus styles */
+.nav-menus{
+    max-width: 1200px;
+    margin: 30px auto 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.grid-btn{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background-color: #3BB77E;
+    padding: 14px;
+    gap:9px;
+    outline: none;
+    border:none;
+}
+
+.grid-btn>span{
+    font-size: 16px;
+    font-weight: 600;
+    color:white;
+}
+
+.nav-menus>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:24px;
+}
+.nav-menus>ul>li{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-menus>ul>li>img{
+    height: 20px;
+    width: 20px;
+}
+.nav-menus>.contact{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.nav-menus>.contact>.number{
+    font-size: 18px;
+    font-weight: 600;
+    color: #3BB77E;
+}
+
+.nav-menus>.contact>.time{
+    font-size: 14px;
+    font-weight: 500;
+    color: #253D4E;
+}
+
+/* hero related styles */
+.hero-bg{
+    height: 513px;
+    background: url("/assets/herobg.png");
+    overflow-y: hidden;
+    margin-top: 14px;
+}
+
+.hero-bg-color{
+    background-color: rgba(197, 234, 217, 0.85);
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.hero-content>img{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    height:512Px;
+}
+
+.text-side>h3{
+    color:#253D4E;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: -0.55px;
+    max-width: 532px;
+}
+
+.text-side>p{
+    color: #838383;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    margin-top: 29px;
+    margin-bottom: 55px;
+}
+
+.subscribe-container{
+    display: flex;
+    align-items: center;
+    height: 52px;
+    background-color: white;
+    padding-left: 12px;
+    gap: 12px;
+}
+.subscribe-container>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+.subscribe-container>img{
+    height: 18px;
+    width: 18x;
+    
+}
+
+.subscribe-container>button{
+    background-color: #3BB77E;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    height: 100%;
+    padding: 0 14px;
+}
