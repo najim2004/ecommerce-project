@@ -411,3 +411,174 @@ nav{
 .btn-right{
     right: -80px;
 }
+
+/* featured products related styles */
+
+.featured-products{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.featured-products-content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    height: 302px;
+    margin-top: 40px;
+    position: relative;
+
+}
+
+.product{
+    border-radius: 3px;
+    border: 1px solid rgba(173, 173, 173, 0.20);
+    background: #FFF;
+    overflow: hidden;
+}
+
+.product>img{
+    height: 144px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-details{
+    padding:10px;
+}
+
+.product-details>.category-name{
+    color: #ADADAD;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.product-details>h1{
+    color:#253D4E;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.product-details>.author{
+    color: #ADADAD;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom:15px;
+}
+
+.product-details>.author>span{
+    color: #3BB77E;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.price>h2{
+    color:#3BB77E;
+    font-size: 18px;
+    font-weight: 600;
+}
+.price>h3{
+    color:#ADADAD;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.add-cart-btn{
+    display: flex;
+    width: 89.5px;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 2px;
+    background-color:#DEF9EC;
+    outline: none;
+    border: none;
+}
+
+.add-cart-btn>img{
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+}
+
+.add-cart-btn>span{
+    color: #3BB77E;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.price-cart{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.product-details>.rating{
+    display: flex;
+    align-items: center;
+    gap:4px;
+    margin: 15px 0px 3px 0px;
+}
+
+.product-details>.rating>img{
+    height: 13px;
+    width: 13px;
+}
+.product-details>.rating>span{
+    color: #ADADAD;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+/* promotion section related styles */
+.promotion{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.promotion-bg{
+    flex-grow: 1;
+    height: 300px;
+    background-image: url('../assets/herobg.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.promotion-content{
+    padding: 48px 33px 0px;
+    height: 300px;
+    position: relative;
+    
+}
+.promotion-content>img{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.promotion-one{
+    border-radius: 3px;
+    background: rgba(255, 245, 225, 0.85);
+}
+.promotion-two{
+    border-radius: 3px;
+    background: rgba(210, 239, 225, 0.85);
+}
+
+.promotion-one>img{
+    width: 184px;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
