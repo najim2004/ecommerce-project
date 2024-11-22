@@ -780,3 +780,141 @@ margin-bottom: 20px;
     font-size: 12px;
     font-weight: 500;
 }
+
+/* why choose us section related style */
+
+.why-choose-us{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    max-width: 280px;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.card>img{
+    width: 52px;
+    height: 52px;
+}
+.card>.details>h1{
+    color: #253D4E;
+    font-size: 18px;
+    font-weight: 600;
+}
+.card>.details>p{
+    color:#ADADAD;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* footer related styles */
+footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    padding: 77px 0px;
+}
+
+.contact-details{
+    margin-top: 36px;
+    max-width: 363px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style-type: none;
+}
+.contact-details>li>a{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.contact-details>li>a>img{
+    width: 18px;
+    height: 18px;
+}
+.contact-details>li>a>p{
+    color: #253D4E;
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer-links{
+    max-width: 130px;
+}
+.footer-links>h3{
+color:  #253D4E;
+font-size: 24px;
+font-weight: 600;
+}
+
+.footer-links>ul{
+    margin-top: 36px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.footer-links>ul>li>a{
+    color: #253D4E;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 29px;
+    margin-bottom: 38px;
+}
+
+.copyright>p{
+    color:  #253D4E;
+    font-size: 16px;
+    font-weight: 500;
+}
+.copyright>img{
+    width: 224px;
+    height: 32px;
+}
+
+.social-links{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.social-links>a{
+    width: 44px;
+    height: 44px;
+    background-color: #3BB77E;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links>a>img{
+    width: 24px;
+    height: 24px;
+}
